@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(153, 142, 128);
+}
+
+.parent 
+{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.right-child
+{
+    width: 500px;
+    height: 598px;
+    right: 0;
+    z-index: 2;
+    border: 1px solid antiquewhite;    
+    margin-left: auto;
+}
+.place-holders
+{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 60px;
+    margin-top: 110px;
+}
+input 
+{
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+}
+button
+{
+    width: 200px;
+    height: 80px;
+    font-size: 26px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(224, 181, 26);
+}
+
+.left-child
+{
+    width: 500px;
+    height: 598px;
+    right: 0;
+    z-index: 4;
+    margin-top: -600px;  
+}
+img
+{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+
+}
